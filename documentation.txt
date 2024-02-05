@@ -1,0 +1,164 @@
+Project title: Automated Diagnosis and Classification of Coffee Leaf Diseases Using Deep Learning
+Problem
+Farmers face significant challenges in the early detection and management of diseases affecting coffee plants. Late identification of diseases often results in substantial crop loss, negatively impacting the income and livelihoods of farmers. This situation exacerbates poverty, contributes to food insecurity, and may lead to the use of excessive and inappropriate pesticides, posing risks to human health and the environment.
+Solution
+The Automated Diagnosis and Classification of Coffee Plant Diseases Using Deep Learning project addresses the aforementioned problem by developing a mobile application. The application utilizes a trained deep learning model and a camera to enable farmers to detect diseases in their coffee crops early on, the app suggests specific cure tailored to the identified diseases, promoting targeted and responsible pesticide use and the symptoms of different disease detected This empowers farmers to take timely and appropriate measures to prevent the spread of diseases and minimize crop loss.
+Our project is using coffee plant leaf images (data) and deep learning techniques to diagnose and classify coffee plant diseases. The deep learning will be saved as a persistent model and saved on to the disk for automation. The persistent model will then be incorporated with a JavaScript framework or library so that our users will be able to interact with the model with little or no assistance. When farmers upload the picture of a coffee plant leaf into the web application or use the Android app on their phone and take picture of the coffee plant, the deep learning model should be able to give them feedback with regards to the health of the coffee plant. In this project, we do not intend to go to the field and collect data due to time factor. Instead, we shall make use of secondary data from platforms like Kaggle. In the automation process for the frontend, we built a mobile application for our users. This project will aid mitigate economic loss to coffee farmers due to the various diseases that can occur to coffee plants. The wastage of coffee plants due to diseases will also be reduced greatly as the project will aid in the early identification and proper classification of coffee diseases.
+ 
+
+Project Core Functionality Documentation
+1.	Introduction
+The core functionality of the "Automated Diagnosis and Classification of Coffee Plant Diseases" app centers around leveraging deep learning technology to automate the diagnosis and classification of diseases affecting coffee plants. This documentation outlines the key features and processes that constitute the app's core functionality.
+
+2.	Key Features
+2.1	Disease Detection with Camera Scan
+Description:Users can initiate a scan using their device's camera, capturing images of coffee plant leaves.
+Implementation:Utilizes a deep learning model to analyze the images and automatically detect and classify diseases present on the coffee plants.
+User Interaction: Users position their device's camera over a coffee plant leaf, capture an image, and receive instant diagnostic results.
+2.2	Disease History and Recommendations
+Description: The app maintains a history of previous scans, allowing users to review the progression of diseases over time.
+Implementation: Stores scan results in a secure database, associating each scan with a timestamp and relevant metadata.
+User Interaction: Users can access a log of previous scans, view historical disease data, and receive recommendations for disease management based on the diagnosed issues.
+3.	User Workflow
+3.1	Registration and Login
+Description: Users must register for an account to access the app's features. Implementation: Implements a secure registration and authentication system, requiring user verification through email or phone number.
+User Interaction: Users provide necessary information, verify their account, and log in to access
+ 
+the app's functionalities.
+
+
+3.2	Main Dashboard
+
+
+Description: Serves as the central hub for users, providing an overview of essential information and access to key features.
+Implementation: Displays relevant information, such as recent scan results, disease history, and recommendations.
+User Interaction: Users navigate through the app, initiating scans, reviewing results, and accessing additional features from the main dashboard.
+
+4.	Technical Implementation
+4.1	Deep Learning Model
+Description:The core of the app's functionality relies on a deep learning model trained to identify coffee plant diseases from images.
+Implementation: Utilizes a pre-trained convolutional neural network (CNN) architecture for image classification.
+Data Preparation: The model is trained on a diverse dataset of coffee plant images, including healthy and diseased samples.
+
+4.2	Backend System
+
+
+Description: Manages user accounts, stores scan data, and facilitates communication between the frontend and deep learning model.
+Implementation: Implements a secure backend server, utilizing RESTful APIs for communication.
+Data Security: Incorporates encryption methods to protect user data and ensure secure communication.
+ 
+5.	Testing and Quality Assurance
+
+
+5.1	Unit and Integration Testing
+
+
+Description: Rigorous testing of individual components and their integration to ensure functionality and reliability.
+
+Implementation:Uses testing frameworks and methodologies to validate each module's correctness.
+Continuous Integration: Implements continuous integration practices to automate testing processes.
+
+5.2	User Acceptance Testing (UAT)
+
+
+Description: Involves real users testing the app's functionality to ensure it meets their expectations and requirements.
+Implementation: Engages with a group of farmers and agricultural professionals for UAT. Feedback Loop: Gathers user feedback to identify areas for improvement and refinement.
+
+
+
+DESCRIPTION
+
+
+1.	Early Disease Detection:
+How it Works: Farmers use our user-friendly mobile or web application to capture images of their coffee plants.
+Technology at Play: Deep learning algorithms analyze the images, swiftly identifying subtle signs of diseases, even at their early stages.
+Real-world Impact: Early detection enables farmers to take immediate corrective measures,
+preventing the spread of diseases and minimizing crop losses.
+ 
+2.	Disease Classification:
+How it Works: The software precisely classifies the identified diseases, providing farmers with detailed information on the type and severity of the infection.
+Technology at Play: Our robust classification models leverage deep learning to accurately categorize diseases, empowering farmers with actionable insights.
+Real-world Impact: Armed with specific knowledge, farmers can apply targeted treatments, optimizing the effectiveness of interventions and minimizing the use of pesticides.
+
+Sustainable Development Goal: No Poverty (SDG 1)
+Complex Problem: Persistent poverty among coffee farmers due to crop losses caused by undetected and untreated coffee plant diseases.
+Manageable Components: Early Disease Detection
+Sub-Problem: Limited ability to identify diseases early, leading to significant crop losses. Solution: Implement deep learning models for early detection of coffee plant diseases, reducing economic losses and promoting financial stability for farmers.
+Sustainable Development Goal: Good Health and Well-being (SDG 3)
+Complex Problem: Insufficient tools for coffee farmers to monitor and manage the health of their crops, leading to decreased yield and quality.
+Manageable Components: Disease Classification and Intervention:
+Sub-Problem: Limited knowledge on disease types and effective intervention strategies. Solution: Integrated disease classification system into the application, accompanied by actionable recommendations for farmers to manage and treat identified diseases effectively. Assessing the viability and effectiveness of the proposed solutions involves considering various factors such as technological feasibility, economic viability, social impact, and scalability. Let's evaluate the chosen solutions for the identified problems:
+Evaluate: Assess the viability and effectiveness of your chosen solutions, to the problems mentioned above.
+Sustainable Development Goal: No Poverty (SDG 1)
+1.	 Early Disease Detection:
+ 
+Viability:
+Technological Feasibility: The implementation of deep learning models for disease detection in plants is technologically feasible, given the advancements in image recognition and machine learning.
+Economic Viability: The initial investment in developing and deploying the models may be significant, but the long-term economic benefits, such as increased crop yields and reduced losses, make it economically viable.
+Social Impact: Provides an immediate positive impact on farmers' livelihoods by preventing economic losses and enhancing financial stability.
+Scalability: The solution is scalable to different regions and crops, making it adaptable to various agricultural contexts.
+Sustainable Development Goal: Good Health and Well-being (SDG 3)
+1.	 Disease Classification and Intervention
+Viability:
+Technological Feasibility: Implementing a disease classification system using deep learning is technologically feasible, especially with the advancements in computer vision.
+
+Economic Viability: Providing actionable recommendations reduces economic losses, making the solution economically viable for farmers.
+Social Impact: Enhances farmers' knowledge and ability to address plant diseases effectively, positively impacting the overall well-being of farmers.
+Scalability: The system can be scaled to accommodate different crops, contributing to the health and well-being of various agricultural communities.
+Create: Innovate and design a [product/system] that solves the original problem stated and is based on the solutions assesd. Demonstrate how your system/ product showcases originality and creativity.
+1.	Smart Imaging for Early Disease Detection:
+Originality: CoffeeDiseaseDetect utilizes cutting-edge smart imaging technology that goes beyond traditional image recognition. It employs a combination of spectral imaging and artificial
+ 
+intelligence to detect subtle signs of diseases at their earliest stages.
+Creativity: The system leverages unique algorithms that analyze spectral patterns in coffee plant images, providing farmers with unparalleled accuracy in disease identification.
+2.	Disease Classification and Intervention System:
+Originality: CoffeeDiseaseDetect incorporates a sophisticated Disease Classification and Intervention System that not only identifies diseases but also offers tailored, actionable recommendations.
+Creativity: The system creatively combines disease classification algorithms with an extensive knowledge base, allowing for personalized intervention strategies that consider both the type and severity of identified diseases.
+New Features
+Feature 1: Symptoms Button
+
+
+Problem
+Farmers often struggle to accurately identify the symptoms of coffee plant diseases, which can lead to delayed or incorrect diagnosis. This lack of knowledge may result in ineffective or inappropriate measures being taken, ultimately impacting crop health and yield.
+Solution
+The Symptoms button feature addresses this problem by providing farmers with a detailed description of the symptoms associated with specific coffee plant diseases. By clicking on this feature button within the app, farmers can access comprehensive information about the visual indicators of various diseases, enabling them to make more informed observations in their fields.
+How It Helps
+Early and Accurate Diagnosis: Farmers can quickly recognize and identify symptoms, facilitating early disease detection
+Preventive Measures: Armed with knowledge about symptoms, farmers can take preventive actions before diseases escalate.
+Reduced Crop Loss: Early intervention based on accurate symptom recognition can lead to effective disease management, minimizing crop loss
+Educational Resource: The feature serves as an educational tool, enhancing farmers' understanding of coffee plant diseases.
+Feature 2: Cure Button:
+ 
+Problem
+Once farmers identify a disease, they may lack clear guidance on appropriate measures for disease management and treatment. Ineffective or delayed treatment can result in further spread of the disease and increased crop loss.
+Solution
+The Cure feature addresses this issue by offering farmers detailed information on recommended cures and management strategies for specific coffee plant diseases. By clicking on this feature button, farmers can access guidance on the most effective and sustainable methods to address the identified diseases.
+How It Helps
+Timely Treatment: Farmers gain insights into effective treatments promptly, minimizing the spread of diseases
+Reduced Economic Loss: Clear guidance on cures helps in implementing timely and appropriate measures, reducing economic losses.
+Sustainable Practices: The feature promotes the use of environmentally friendly and sustainable methods for disease management.
+Increased Confidence: Farmers can make informed decisions on disease management, leading to increased confidence in their farming practices
+Our Competitors
+Several efforts have been made using Artificial Intelligence (AI) to assist farmers to correctly identify the diseases and pests that affect their production and the severity of the symptoms. Computer-aided diagnosis (CAD) systems allow any farmer with access to a smartphone to enjoy expert knowledge in a practical and low-cost way.
+Johannes et al. developed a system capable of identifying diseases in photos of wheat leaves obtained by smartphones. Picon et al. expands on this work using an adapted Deep Residual Neural Network-based algorithm to deal with the detection of multiple plant diseases from in-field acquired images.
+Smartphone applications have been developed using deep learning methods. Elhassouny and Smarandache developed a smart mobile application using convolutional neural networks (CNN) to recognize tomato leaf diseases. Toseef and Khan developed a mobile app for diagnosis of crop diseases using a fuzzy inference system. Manso et al. developed a system for quantification and classifying of leaf miner and coffee leaf rust. The system uses a threshold-based method to quantify the severity and to identify each symptom individually. Marcos et al. and Boa Sorte et al. used deep leaning approach for coffee leaf disease detection, both of them using CNN based architectures. Only a few diseases were considered by these authors, Marcos et al. only dealt with rust and Boa Sorte et al. with rust and cercospora leaf spot. Other competitors in the market are: Plantix.net, Farmers Trend, Fiverr, Debo Engineering Corporate, and PlantVillage.
+ 
+Why we are the number one choice Relatively high level of accuracy
+Our proposed model achieved a testing accuracy of 99.08%, outperforming other classifiers. The results is due proper image preprocessing, data augmentation, and TensorFlow CNN provide an efficient classification method for identifying and classifying coffee diseases.
+Wider range of disease detection
+Our model is able to detect and classify four classes of conditions of coffee leaf namely rust, miner, phoma and healthy. Whereas most of our competitors most especially does doing it solely for deep learning research identify and classify two out of the four classes, mostly miner and rust.
+Light weight
+Our model makes use of the light-weight CNNs based on the TensorFlow deep learning framework. The result of this is that all smartphones are able to download, install, and use our App without troubles like crashing. Our competitors, on the other hand, used Yolov5, RESNET-based and GoogLeNet-based architectures since they are more concerned about the intellectual aspect of the technology. As a consequence, the computational requirements for using their applications became so profound that not all smartphone could bear the weight.
+Speed and internet connectivity
+Due to it light weight, our proposed model predicts and gives the results faster than our rivals in the market. It also works even in environments with low internet connectivity because of it light weight. The rival application due to their heavy weight architecture requires a strong internet connectivity for them to function properly.
+Cross-platform
+Our application would be built using Flutter so that it works on all smartphones, be it Android or iOS. This makes it ideal for farmers and other stakeholders to use our application without the need to buy a smartphone that our application is compatible with. Our rivals, however, developed their Apps using Android Studio and as a consequence their applications are only compatible with Android phones.
+Holistic approach to the development process
+Our rivals stops at detecting and classifying coffee leaf disease. We have decided to take a more holistic approach to the development of our application by not only detecting and classifying the leaf condition, but also to highlight the signs and symptoms and recommend the remedy for the disease that is predicted.
+ 
+Demographics
+In our research, we realized that most of the global coffee production are in Brazil, Ethiopia, Uganda, Kenya, Peru, India, China, et cetera. When you look at the data, you find that all the countries are Third-World countries. So the people we are targeting are coffee farmers in Third- world countries - the G-77 + China.
+
+
+Added Innovation
+Because our target is the under-developed world, we are trying to make the functioning of our model to be non-reliant on internet connectivity. This added innovation if successful will enable coffee farmers even in the remotest of environments to use our application without much of a hustle since internet is us
